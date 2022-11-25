@@ -67,6 +67,7 @@ func (l *SimpleLogger) printLog(level LogLevel, msg string) {
 	_, _ = fmt.Fprintf(l.writer, "%s %s %s\n", t, levelNames[level], lineBreakRE.ReplaceAllLiteralString(msg, " "))
 }
 
+// Debug log
 func (l *SimpleLogger) Debug(msg string) {
 	l.printLog(LevelDebug, msg)
 }
