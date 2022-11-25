@@ -32,7 +32,7 @@
         }
       ]
     ],
-    "tagFormat": "simplelogger/v${version}"
+    "tagFormat": "simplelogger-test/v${version}"
   }
 }
 
