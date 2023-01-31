@@ -8,7 +8,7 @@ import (
 	"regexp"
 	"testing"
 
-	"github.com/JYisus/simplelogger"
+	"github.com/jyisus/mymodule/simplelogger/v4"
 )
 
 func captureOutput(f func()) string {
